@@ -89,7 +89,7 @@ class Ticket(models.Model):
             row: int,
             seat: int,
             movie_session,
-            error_to_raise
+            error_to_raise=ValidationError
     ):
         cinema_hall = movie_session.cinema_hall
 

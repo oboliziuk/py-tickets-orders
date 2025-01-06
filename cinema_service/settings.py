@@ -128,6 +128,11 @@ USE_TZ = True
 
 # USE_TZ = False
 
+# REST_FRAMEWORK = {
+#    "DEFAULT_PAGINATION_CLASS": "rest_framework.pagination.LimitOffsetPagination",
+#    "PAGE_SIZE": 1
+# }
+
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
 
